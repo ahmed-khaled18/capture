@@ -1,43 +1,44 @@
+import React from "react";
 import styled from "styled-components";
 import { Container } from "../Styles";
+import Toggle from "./Toggle";
+import { LayoutGroup } from "framer-motion";
+
 const FaqSection = () => {
   return (
     <Faq>
       <h2>
-        Any Questions <span>FQA</span>
+        Any Questions <span>FAQ</span>
       </h2>
-      <div className="question">
-        <h4>How do i start?</h4>
-        <div className="answer">
-          <p>Lorem ipsum dolor sit amet.</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, veritatis.</p>
-        </div>
-        <div className="faq-line"></div>
-      </div>
-      <div className="question">
-        <h4>How do i start?</h4>
-        <div className="answer">
-          <p>Lorem ipsum dolor sit amet.</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, veritatis.</p>
-        </div>
-        <div className="faq-line"></div>
-      </div>
-      <div className="question">
-        <h4>Daily schedule</h4>
-        <div className="answer">
-          <p>Lorem ipsum dolor sit amet.</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, veritatis.</p>
-        </div>
-        <div className="faq-line"></div>
-      </div>
-      <div className="question">
-        <h4>Different payment methods</h4>
-        <div className="answer">
-          <p>Lorem ipsum dolor sit amet.</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, veritatis.</p>
-        </div>
-        <div className="faq-line"></div>
-      </div>
+      <LayoutGroup>
+        <Toggle title="How Do I Start?">
+          <div className="answer">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi autem accusamus ex laboriosam porro, adipisci quam voluptatum magnam
+              placeat corporis.
+            </p>
+          </div>
+        </Toggle>
+        <Toggle title="Daily Schedule">
+          <div className="answer">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, totam.</p>
+          </div>
+        </Toggle>
+        <Toggle title="Diferrent Payment Methods">
+          <div className="answer">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, neque.</p>
+          </div>
+        </Toggle>
+        <Toggle title="What Products do you offer.">
+          <div className="answer">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, neque.</p>
+          </div>
+        </Toggle>
+      </LayoutGroup>
     </Faq>
   );
 };
@@ -48,7 +49,7 @@ const Faq = styled(Container)`
     display: block;
   }
   h2 {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     font-weight: lighter;
   }
   .faq-line {
@@ -58,14 +59,15 @@ const Faq = styled(Container)`
     width: 100%;
   }
   .question {
-    padding: 1.5rem 0rem;
+    padding: 3rem 0rem;
     cursor: pointer;
   }
   .answer {
-    padding: 1rem 0rem;
+    padding: 2rem 0rem;
     p {
-      padding: 0.5rem 0rem;
+      padding: 1rem 0rem;
     }
   }
 `;
+
 export default FaqSection;
