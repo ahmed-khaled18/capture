@@ -1,7 +1,13 @@
 {
   "files": {
-    "main.js": "/capture/static/js/main.c41c3b0c.js",
+    "main.js": "/capture/static/js/main.0830e6fc.js",
     "static/js/453.e77c1612.chunk.js": "/capture/static/js/453.e77c1612.chunk.js",
+    "static/media/good-times2.jpg": "/capture/static/media/good-times2.4ea1be179615d4b3ab59.jpg",
+    "static/media/goodtimes-small.png": "/capture/static/media/goodtimes-small.94ab060d85c99adbb13f.png",
+    "static/media/the-racer2.jpg": "/capture/static/media/the-racer2.580f15cd29971622e0d1.jpg",
+    "static/media/athlete-small.png": "/capture/static/media/athlete-small.9c7a85d428db170f0302.png",
+    "static/media/theracer-small.png": "/capture/static/media/theracer-small.51874213d9ada354f58f.png",
+    "static/media/athlete2.png": "/capture/static/media/athlete2.b216a5ad61641fa48f20.png",
     "static/media/home2.png": "/capture/static/media/home2.a65a4256898b1604faa8.png",
     "static/media/home1.png": "/capture/static/media/home1.9836de697da07909472a.png",
     "static/media/clock.svg": "/capture/static/media/clock.4b7cde7ee253e86d28dd395865402e51.svg",
@@ -9,10 +15,10 @@
     "static/media/money.svg": "/capture/static/media/money.72da7c48fb2a365ee42bd3d4e2d422bf.svg",
     "index.html": "/capture/index.html",
     "static/media/diaphragm.svg": "/capture/static/media/diaphragm.db80149133415ef61454d3a71f2d5574.svg",
-    "main.c41c3b0c.js.map": "/capture/static/js/main.c41c3b0c.js.map",
+    "main.0830e6fc.js.map": "/capture/static/js/main.0830e6fc.js.map",
     "453.e77c1612.chunk.js.map": "/capture/static/js/453.e77c1612.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.c41c3b0c.js"
+    "static/js/main.0830e6fc.js"
   ]
 }
