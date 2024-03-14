@@ -50,7 +50,7 @@ const Title = styled.div`
   margin-bottom: 4rem;
   color: #23d997;
   @media (max-width: 1500px) {
-    margin-top: 5rem;
+    margin-top: 2.5rem;
   }
 `;
 const Hide = styled.div`

@@ -7,6 +7,11 @@ export const Container = styled(motion.div)`
   justify-content: space-between;
   color: white;
   padding: 2.5rem 5rem;
+  @media (max-width: 1300px) {
+    display: block;
+    padding: 1.5rem 1.5rem;
+    text-align: center;
+  }
 `;
 
 export const Description = styled.div`
@@ -15,6 +20,12 @@ export const Description = styled.div`
   z-index: 2;
   h2 {
     font-weight: lighter;
+  }
+  @media (max-width: 1300px) {
+    padding: 0;
+    button {
+      margin: 1rem 0rem 2.5 0rem;
+    }
   }
 `;
 

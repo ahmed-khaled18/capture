@@ -57,6 +57,13 @@ const Work = styled(motion.div)`
     font-weight: bold;
     color: #23d997;
   }
+  @media (max-width: 1300px) {
+    padding: 2rem 2rem;
+  }
+
+  h2 {
+    padding: 1rem 0rem;
+  }
 `;
 const Movie = styled(motion.div)`
   padding-bottom: 5rem;
