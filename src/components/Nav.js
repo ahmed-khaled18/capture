@@ -30,6 +30,9 @@ const NavBar = styled.nav`
   min-height: 10vh;
   margin: auto;
   background: #282828;
+  position: sticky;
+  top: 0;
+  z-index: 10;
   padding: 1rem 5rem;
   a {
     color: white;
