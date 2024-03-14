@@ -1,14 +1,16 @@
 import AboutSection from "../components/AboutSection";
 import FaqSection from "../components/FaqSection";
 import ServicesSection from "../components/ServicesSection";
+import { motion } from "framer-motion";
+import { pageAnim } from "../Animations";
 
 const AboutUs = () => {
   return (
-    <div className="about-us-container">
+    <motion.div variants={pageAnim} initial="hidden" animate="show" exit="exit">
       <AboutSection />
       <ServicesSection />
       <FaqSection />
-    </div>
+    </motion.div>
   );
 };
 
